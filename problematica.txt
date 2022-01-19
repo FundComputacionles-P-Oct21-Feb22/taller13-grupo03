@@ -1,0 +1,36 @@
+// problematica
+
+1. Inicio
+2. Funcion principal()
+3.   variableK, i[0-n]
+4.   K1, i[0-n] <-- 0
+5.   j, i[0-n] <-- 0
+6.   residuo, i[0-n]
+7.   iteración, i[0-n]
+8.   Escribir "Ingrese el número de la variable k"
+9.   Leer variableK
+10.  K1 <-- variableK
+11.  Mientras K1 >= 0 entonces
+12.   residuo <-- obtenerResiduo(K1, 10)
+13.   iteración <-- obtenerIteración(residuo, 10, j)
+14.   K1 <-- K1/10
+15.   j <-- j + 1
+16.  Fin_Mientras
+17.  Escribir iteración 
+18. fin funcion principal()
+
+19. funcion obtenerResiduo(a, i; b, i): i
+20.  v3, i[0-n]
+21.  v3 <-- a MOD b
+22.  retorna v3
+23. fin funcion obtenerResiduo()
+
+24. funcion obtenerIteración(c, i; d, i; e, i): x
+25.  mensaje, x(50)[{a-z}, {A-Z}, {1-10}, "BS"]
+26.  mensaje <-- c + * + d + " elevado a la potencia " + e
+27.  retorna mensaje
+28. fin funcion obtenerIteracion()
+
+
+
+
